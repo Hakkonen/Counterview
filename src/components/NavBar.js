@@ -34,7 +34,7 @@ function NavBar(props) {
         // Passes JSON data to parent
         props.onDataChange(result)
     }, [result])
-
+    
     return (
         <Navbar collapseOnSelect className="navBar" expand="lg"variant="dark">
             <Container>
