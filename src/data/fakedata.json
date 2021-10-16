@@ -76,6 +76,11 @@
     },
     {
         "series": "fake",
+        "asset": "FAKEFRIDA",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEFRIDA/FAKEFRIDA.png"
+    },
+    {
+        "series": "fake",
         "asset": "FAKEGRAM",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEGRAM/FAKEGRAM.png"
     },
@@ -141,6 +146,11 @@
     },
     {
         "series": "fake",
+        "asset": "FEELSGOODGRL",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FEELSGOODGRL/FEELSGOODGRL.jpg"
+    },
+    {
+        "series": "fake",
         "asset": "FIDENZAPEPE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FIDENZAPEPE/FIDENZAPEPE.png"
     },
@@ -158,6 +168,11 @@
         "series": "fake",
         "asset": "GETPEPEODT",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/GETPEPEODT/GETPEPEODT.gif"
+    },
+    {
+        "series": "fake",
+        "asset": "HODLHALPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/HODLHALPEPE/HODLHALPEPE.jpeg"
     },
     {
         "series": "fake",
@@ -256,6 +271,11 @@
     },
     {
         "series": "fake",
+        "asset": "PEPEESCOBAR",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEESCOBAR/PEPEESCOBAR.jpg"
+    },
+    {
+        "series": "fake",
         "asset": "PEPEHIRST",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEHIRST/PEPEHIRST.gif"
     },
@@ -276,8 +296,23 @@
     },
     {
         "series": "fake",
+        "asset": "PEPEMANTLE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEMANTLE/PEPEMANTLE.jpeg"
+    },
+    {
+        "series": "fake",
         "asset": "PEPEMAZE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEMAZE/PEPEMAZE.png"
+    },
+    {
+        "series": "fake",
+        "asset": "PEPEMUNDI",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEMUNDI/PEPEMUNDI.jpeg"
+    },
+    {
+        "series": "fake",
+        "asset": "PEPENIRO",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPENIRO/PEPENIRO.gif"
     },
     {
         "series": "fake",
@@ -398,6 +433,11 @@
         "series": "fake",
         "asset": "TABLOIDPEPE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/TABLOIDPEPE/TABLOIDPEPE.png"
+    },
+    {
+        "series": "fake",
+        "asset": "TYSONFURY",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/TYSONFURY/TYSONFURY.png"
     },
     {
         "series": "fake",
