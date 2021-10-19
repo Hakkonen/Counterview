@@ -16,8 +16,18 @@
     },
     {
         "series": "fake",
+        "asset": "CELEPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/CELEPEPE/CELEPEPE.gif"
+    },
+    {
+        "series": "fake",
         "asset": "COLLEGEMONEY",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/COLLEGEMONEY/COLLEGEMONEY.png"
+    },
+    {
+        "series": "fake",
+        "asset": "COLOREDSANDS",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/COLOREDSANDS/COLOREDSANDS.jpg"
     },
     {
         "series": "fake",
@@ -41,8 +51,18 @@
     },
     {
         "series": "fake",
+        "asset": "ELIZABETHWAR",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/ELIZABETHWAR/ELIZABETHWAR.jpeg"
+    },
+    {
+        "series": "fake",
         "asset": "FAKAMOTO",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKAMOTO/FAKAMOTO.jpeg"
+    },
+    {
+        "series": "fake",
+        "asset": "FAKARIO",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKARIO/FAKARIO.gif"
     },
     {
         "series": "fake",
@@ -71,6 +91,11 @@
     },
     {
         "series": "fake",
+        "asset": "FAKEDARKSIDE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEDARKSIDE/FAKEDARKSIDE.png"
+    },
+    {
+        "series": "fake",
         "asset": "FAKEDEMISE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEDEMISE/FAKEDEMISE.png"
     },
@@ -78,6 +103,11 @@
         "series": "fake",
         "asset": "FAKEDJPEPE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEDJPEPE/FAKEDJPEPE.gif"
+    },
+    {
+        "series": "fake",
+        "asset": "FAKEFIATPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEFIATPEPE/FAKEFIATPEPE.png"
     },
     {
         "series": "fake",
@@ -126,6 +156,11 @@
     },
     {
         "series": "fake",
+        "asset": "FAKELASER",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKELASER/FAKELASER.png"
+    },
+    {
+        "series": "fake",
         "asset": "FAKEPEPELISA",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEPEPELISA/FAKEPEPELISA.jpeg"
     },
@@ -133,6 +168,11 @@
         "series": "fake",
         "asset": "FAKEQUEEN",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEQUEEN/FAKEQUEEN.jpeg"
+    },
+    {
+        "series": "fake",
+        "asset": "FAKEROCK",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEROCK/FAKEROCK.png"
     },
     {
         "series": "fake",
@@ -148,6 +188,26 @@
         "series": "fake",
         "asset": "FAKETEARS",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKETEARS/FAKETEARS.png"
+    },
+    {
+        "series": "fake",
+        "asset": "FAKETOOSHI",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKETOOSHI/FAKETOOSHI.png"
+    },
+    {
+        "series": "fake",
+        "asset": "FAKETWELVE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKETWELVE/FAKETWELVE.gif"
+    },
+    {
+        "series": "fake",
+        "asset": "FAKEWYOMING",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKEWYOMING/FAKEWYOMING.png"
+    },
+    {
+        "series": "fake",
+        "asset": "FAKTEST1",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/FAKTEST1/FAKTEST1.jpg"
     },
     {
         "series": "fake",
@@ -173,6 +233,11 @@
         "series": "fake",
         "asset": "GETPEPEODT",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/GETPEPEODT/GETPEPEODT.gif"
+    },
+    {
+        "series": "fake",
+        "asset": "GODSOFPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/GODSOFPEPE/GODSOFPEPE.png"
     },
     {
         "series": "fake",
@@ -211,6 +276,11 @@
     },
     {
         "series": "fake",
+        "asset": "LOOKSRARE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/LOOKSRARE/LOOKSRARE.png"
+    },
+    {
+        "series": "fake",
         "asset": "LORDFAKA",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/LORDFAKA/LORDFAKA.jpeg"
     },
@@ -231,6 +301,11 @@
     },
     {
         "series": "fake",
+        "asset": "NIGHTPEPES",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/NIGHTPEPES/NIGHTPEPES.png"
+    },
+    {
+        "series": "fake",
         "asset": "NOOBGRAM",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/NOOBGRAM/NOOBGRAM.png"
     },
@@ -243,6 +318,16 @@
         "series": "fake",
         "asset": "ONLYPEPES",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/ONLYPEPES/ONLYPEPES.png"
+    },
+    {
+        "series": "fake",
+        "asset": "PAPAJPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PAPAJPEPE/PAPAJPEPE.png"
+    },
+    {
+        "series": "fake",
+        "asset": "PARADOXPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PARADOXPEPE/PARADOXPEPE.png"
     },
     {
         "series": "fake",
@@ -261,6 +346,11 @@
     },
     {
         "series": "fake",
+        "asset": "PEPEBEBE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEBEBE/PEPEBEBE.png"
+    },
+    {
+        "series": "fake",
         "asset": "PEPEBILLIONS",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEBILLIONS/PEPEBILLIONS.jpeg"
     },
@@ -268,6 +358,11 @@
         "series": "fake",
         "asset": "PEPEBULGE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEBULGE/PEPEBULGE.png"
+    },
+    {
+        "series": "fake",
+        "asset": "PEPEDENZA",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEDENZA/PEPEDENZA.gif"
     },
     {
         "series": "fake",
@@ -291,8 +386,18 @@
     },
     {
         "series": "fake",
+        "asset": "PEPEISDED",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEISDED/PEPEISDED.png"
+    },
+    {
+        "series": "fake",
         "asset": "PEPEKAWS",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEKAWS/PEPEKAWS.png"
+    },
+    {
+        "series": "fake",
+        "asset": "PEPEKINDNESS",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPEKINDNESS/PEPEKINDNESS.gif"
     },
     {
         "series": "fake",
@@ -356,6 +461,16 @@
     },
     {
         "series": "fake",
+        "asset": "PEPKONG",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPKONG/PEPKONG.gif"
+    },
+    {
+        "series": "fake",
+        "asset": "PEPONONOKE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPONONOKE/PEPONONOKE.png"
+    },
+    {
+        "series": "fake",
         "asset": "PEPSIPEPE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PEPSIPEPE/PEPSIPEPE.gif"
     },
@@ -373,6 +488,11 @@
         "series": "fake",
         "asset": "PONZIBEAR",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PONZIBEAR/PONZIBEAR.png"
+    },
+    {
+        "series": "fake",
+        "asset": "PUCCI",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/PUCCI/PUCCI.jpg"
     },
     {
         "series": "fake",
@@ -421,6 +541,11 @@
     },
     {
         "series": "fake",
+        "asset": "SCHIFFPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/SCHIFFPEPE/SCHIFFPEPE.jpg"
+    },
+    {
+        "series": "fake",
         "asset": "SEAOFFROG",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/SEAOFFROG/SEAOFFROG.jpeg"
     },
@@ -436,8 +561,23 @@
     },
     {
         "series": "fake",
+        "asset": "SHOTGUNPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/SHOTGUNPEPE/SHOTGUNPEPE.gif"
+    },
+    {
+        "series": "fake",
+        "asset": "SOMUCHPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/SOMUCHPEPE/SOMUCHPEPE.gif"
+    },
+    {
+        "series": "fake",
         "asset": "TABLOIDPEPE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/TABLOIDPEPE/TABLOIDPEPE.png"
+    },
+    {
+        "series": "fake",
+        "asset": "TINHATMAXI",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/TINHATMAXI/TINHATMAXI.png"
     },
     {
         "series": "fake",
@@ -446,8 +586,18 @@
     },
     {
         "series": "fake",
+        "asset": "UNTITLEDRED",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/UNTITLEDRED/UNTITLEDRED.jpg"
+    },
+    {
+        "series": "fake",
         "asset": "VASECTOPEPE",
         "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/VASECTOPEPE/VASECTOPEPE.jpeg"
+    },
+    {
+        "series": "fake",
+        "asset": "VSAUCEPEPE",
+        "src": "https://s3.us-west-1.amazonaws.com/fakeasf.club/assets/VSAUCEPEPE/VSAUCEPEPE.png"
     },
     {
         "series": "fake",
