@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { Container, Nav, Navbar, Form, FormControl, Button } from "react-bootstrap"
 import Fetch from "./Fetch"
+import AutoComplete from "./AutoComplete";
 
 function NavBar(props) {
     const [ input, setInput ] = useState("")    // Search input box value
@@ -69,7 +70,13 @@ function NavBar(props) {
                         handleSubmit(e)
                     }}
                 >
-                <FormControl
+                <AutoComplete 
+                    className="mr-2 search-field"
+                    setInput={setInput} 
+                    search={search} 
+                    input={input} 
+                />
+                {/* <FormControl
                     type="search"
                     placeholder="Search asset or address"
                     className="mr-2 search-field"
@@ -77,7 +84,7 @@ function NavBar(props) {
                     onChange={(e)=>{
                         handleInput(e.target.value)
                     }}
-                />
+                /> */}
                 <Button 
                     variant="outline-success"
                     className="search-button"
