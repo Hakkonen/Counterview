@@ -25,34 +25,34 @@ function CreateCard(props) {
         }))
     }
 
-    // Runs on call info so not to continuously call
-    useEffect(() => {
-        // Updates asset and market info on toggle
-        const updateData = async () => {
-            // Update info
-            const asset_info = await Fetch("asset", props.asset)
-            let val_usd = "Priceless"
-            if(asset_info["estimated_value"]["usd"] > 0.0) {
-                val_usd = parseFloat(asset_info["estimated_value"]["usd"]).toFixed(4)
-            }
+    // // Runs on call info so not to continuously call
+    // useEffect(() => {
+    //     // Updates asset and market info on toggle
+    //     const updateData = async () => {
+    //         // Update info
+    //         const asset_info = await Fetch("asset", props.asset)
+    //         let val_usd = "Priceless"
+    //         if(asset_info["estimated_value"]["usd"] > 0.0) {
+    //             val_usd = parseFloat(asset_info["estimated_value"]["usd"]).toFixed(4)
+    //         }
 
-            // Update dispenser
-            const asset_disp = await Fetch("dispensers", props.asset)
-            let dispenser_btc = ""
-            if(asset_disp["data"].length > 0) {
-                dispenser_btc = ((parseFloat(asset_disp["data"][0]["satoshirate"]).toFixed(4)).toString() + "BTC")
-            } else {
-                dispenser_btc = "Priceless"
-            }
+    //         // Update dispenser
+    //         const asset_disp = await Fetch("dispensers", props.asset)
+    //         let dispenser_btc = ""
+    //         if(asset_disp["data"].length > 0) {
+    //             dispenser_btc = ((parseFloat(asset_disp["data"][0]["satoshirate"]).toFixed(4)).toString() + "BTC")
+    //         } else {
+    //             dispenser_btc = "Priceless"
+    //         }
 
-            setInfo(prevState => ({
-                supply: asset_info["supply"],
-                est_value: val_usd.toString(),
-                dispenser_price: dispenser_btc.toString()
-            }))
-        }
-        updateData()
-    }, [callInfo])
+    //         setInfo(prevState => ({
+    //             supply: asset_info["supply"],
+    //             est_value: val_usd.toString(),
+    //             dispenser_price: dispenser_btc.toString()
+    //         }))
+    //     }
+    //     updateData()
+    // }, [callInfo])
 
     useState(() => {
         // console.log(info)
@@ -67,7 +67,7 @@ function CreateCard(props) {
             <span className="fill"></span>
             <p>INFO</p>
             <p><a href={`https://xchain.io/asset/${props.asset}`} target="_blank">XCHAIN</a></p>
-            <p>SUPPLY: {info.supply}</p>
+            <p>SUPPLY: {props.quantity}</p>
             <p>EST VAL: {info.est_value}</p>
             <p>LAST DISP: {info.dispenser_price}</p>
         </span>

@@ -5,7 +5,7 @@ import AutoComplete from "./AutoComplete";
 
 function NavBar(props) {
     const [ input, setInput ] = useState("")    // Search input box value
-    const [ result, setResult ] = useState("")  // Fetch results
+    const [ result, setResult ] = useState({asset: "", supply: "0"})  // Fetch results
 
     // 1. Handles search input
     function handleInput(input) {
@@ -20,7 +20,7 @@ function NavBar(props) {
     const search = async (value) => {
 
         // If text input is not length of address then search for asset
-        if(value.length < 33) {
+        if(value.length < 28) {
             const res = await Fetch("asset", value)
             setResult(res)
         } else {
@@ -32,6 +32,8 @@ function NavBar(props) {
 
     // 3. Updates wallet values when async is complete
     useEffect(() => {
+        console.log("RESULT")
+        console.log(result)
         // Passes JSON data to parent
         props.onDataChange(result)
     }, [result])
@@ -68,6 +70,7 @@ function NavBar(props) {
                     }}
                     onSubmit={(e) => {
                         handleSubmit(e)
+                        e.preventDefault()
                     }}
                 >
                 <AutoComplete 

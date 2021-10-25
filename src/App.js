@@ -21,13 +21,22 @@ function App() {
     })
 
     // Allows writing of parent data from child
-    function onDataChange(input) {setData(input)}
+    // function onDataChange(input) {setData(input)}
+    // const onDataChange = input => {
+    //     setData({...data, input})
+    // }
+    function onDataChange(input) {
+        setData(input)
+    }
     
     // On data update begin populating gallery
     useEffect(() => {
+        console.log("DATA")
+        console.log(data)
+        console.log(typeof data)
         // Filter JSON data for single asset or wallet balance
-        if(data["asset"]) {
-
+        if((typeof data != "undefined") && data.asset) {
+            console.log(data.asset)
             // Get asset details
             const assetName = data["asset"]
             const assetQty = data["supply"]
@@ -38,14 +47,15 @@ function App() {
             // Create asset card
             setWallet(<CreateCard key={1} series={series} asset={assetName} quantity={assetQty} src={assetSrc} type={"asset"} />)
 
-        } else if (data["data"]) {
-
+        } else if ((typeof data != "undefined") && (data.length > 1)) {
+            console.log("ADDRESS")
+            console.log(data.length)
             // Populate wallet with assets
-            if (data["data"].length > 0) {
+            if (data.length > 0) {
 
                 let cardList = []
                 let count = 0
-                const assetList = data["data"]
+                const assetList = data
                 
                 assetList.forEach((asset) => {
                     const assetName = asset["asset"]
