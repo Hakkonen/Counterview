@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react"
 import Fetch from "./Fetch"
+import LazyImage from "./LazyImage"
+
+import placeholder from "../data/placeholder.jpg"
 
 // Takes in image src, asset name and 
 // quantity to return an image card for gallery view
@@ -81,10 +84,11 @@ function CreateCard(props) {
             }}
         >
             {toggle.info ? cardInfo : null}
-            <img 
+            {/* <img 
                 alt={props.asset}
                 src={props.src}
-            />
+            /> */}
+            <LazyImage src={props.src} placeholder={placeholder} />
             <p 
                 className="asset-info"
                 onClick={() => {

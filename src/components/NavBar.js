@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { Container, Nav, Navbar, Form, FormControl, Button } from "react-bootstrap"
+import { Container, Nav, Navbar, Form, NavDropdown, Button } from "react-bootstrap"
 import Fetch from "./Fetch"
 import AutoComplete from "./AutoComplete";
 
@@ -45,22 +45,37 @@ function NavBar(props) {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link 
+                    {/* <Nav.Link 
                         className={props.pepeFilter.original ? "selected-filter" : "nav-link"}
                         onClick={() => {
                             props.onFilterChange("original")
                         }}
-                    >OG Peps</Nav.Link>
+                    >OG Peps</Nav.Link> */}
+                    <NavDropdown title="OG Peps">
+                    <NavDropdown.Item>
+                        Coming Soon
+                    </NavDropdown.Item>
+                    </NavDropdown>
+
                     <Nav.Link 
                         className={props.pepeFilter.fake ? "selected-filter" : "nav-link"}
                         onClick={() => {
                             props.onFilterChange("fake")
                         }}
                     >Fakes</Nav.Link>
-                    <Nav.Link 
+                    {/* <Nav.Link 
                         href="https://fapep.github.io/FABRIQUE/"
                         target="_blank"
-                    >About</Nav.Link>
+                    >About</Nav.Link> */}
+                    <NavDropdown title="Donate">
+                        <NavDropdown.Item nowrap
+                            onClick={() => {
+                                navigator.clipboard.writeText("1EWFR9dMzM2JtrXeqwVCY1LW6KMZ1iRhJ5")
+                            }}
+                        >
+                            Copy: 1EWFR9dMzM2JtrXeqwVCY1LW6KMZ1iRhJ5
+                        </NavDropdown.Item>
+                    </NavDropdown>
                 </Nav>
                 <Form 
                     id="search-input"

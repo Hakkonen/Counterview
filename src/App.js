@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, useReducer } from "react"
 import NavBar from "./components/NavBar"
 import Gallery from "./components/Gallery"
 import FindSrc from "./components/FindSrc"
