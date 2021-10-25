@@ -68,13 +68,26 @@ function NavBar(props) {
                         target="_blank"
                     >About</Nav.Link> */}
                     <NavDropdown title="Donate">
-                        <NavDropdown.Item nowrap
+                    <NavDropdown.Item nowrap
+                            onClick={() => {
+                                navigator.clipboard.writeText("1EWFR9dMzM2JtrXeqwVCY1LW6KMZ1iRhJ5")
+                            }}
+                        >
+                            Fabrique
+                    </NavDropdown.Item>
+                    <NavDropdown.Item nowrap
                             onClick={() => {
                                 navigator.clipboard.writeText("1EWFR9dMzM2JtrXeqwVCY1LW6KMZ1iRhJ5")
                             }}
                         >
                             Copy: 1EWFR9dMzM2JtrXeqwVCY1LW6KMZ1iRhJ5
                         </NavDropdown.Item>
+                        <NavDropdown.Item 
+                        onClick={() => {
+                                navigator.clipboard.writeText("hello.fabrique@protonmail.com")
+                        }}>
+                        Copy email
+                    </NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Form 
