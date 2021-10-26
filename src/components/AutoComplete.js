@@ -82,9 +82,10 @@ export default function AutoComplete(props) {
                   className='w-100'
                   id={asset.asset}
                   onClick={(e) => {
+                    console.log("THIS")
                     console.log(e.target.id);
-                    handleSearch(e.target.id);
                     setInput(e.target.id);
+                    // handleSearch(e.target.id);
                     setShowComplete(false);
                   }}
                   key={i}>
@@ -113,8 +114,8 @@ export default function AutoComplete(props) {
                     as='div'
                     onClick={(e) => {
                         console.log(e.target.innerText);
-                        handleSearch(e.target.innerText);
                         setInput(e.target.innerText);
+                        // handleSearch(e.target.innerText);
                         setShowComplete(false);
                     }}
                     variant='secondary'

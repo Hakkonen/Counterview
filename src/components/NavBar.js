@@ -11,6 +11,10 @@ function NavBar(props) {
     function handleInput(input) {
         setInput(input)
     }
+    function handleChange(e) {
+        const string = e.target.value
+        setInput(string.toUpperCase())
+    }
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -95,6 +99,9 @@ function NavBar(props) {
                     className="d-flex"
                     onClick={(e) => {
                         // console.log(e.target)
+                    }}
+                    onChange={(e) => {
+                        handleChange(e)
                     }}
                     onSubmit={(e) => {
                         handleSubmit(e)

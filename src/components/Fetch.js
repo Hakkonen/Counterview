@@ -6,7 +6,7 @@ const Fetch = async (type, value) => {
     // const json = await res.json()
     // return json
 
-    const url = "http://public.coindaddy.io:4000/api/"
+    const url = "https://public.coindaddy.io:4001/api/"
     const headers = {'content-type': 'application/json'}
     // const auth = HTTPBasicAuth('rpc', "1234")
 
