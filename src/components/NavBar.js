@@ -12,8 +12,9 @@ function NavBar(props) {
         setInput(input)
     }
     function handleChange(e) {
+        console.log(e.target.value)
         const string = e.target.value
-        setInput(string.toUpperCase())
+        setInput(string)
     }
 
     function handleSubmit(e) {
@@ -25,7 +26,8 @@ function NavBar(props) {
 
         // If text input is not length of address then search for asset
         if(value.length < 28) {
-            const res = await Fetch("asset", value)
+            setInput(value.toUpperCase())
+            const res = await Fetch("asset", value.toUpperCase())
             setResult(res)
         } else {
         // Search an address
