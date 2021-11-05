@@ -102,7 +102,10 @@ function App() {
 
     return (
         <div>
-            <NavBar 
+            <p style={{margin: "1em"}}>
+            Counterview has become <a href="https://hexflow.io">Hexflow.io</a>
+            </p>
+            {/* <NavBar 
                 data={data} 
                 onDataChange={onDataChange}
                 pepeFilter={pepeFilter}
@@ -111,7 +114,7 @@ function App() {
             <Gallery 
                 wallet={wallet}
                 pepeFilter={pepeFilter}
-            />
+            /> */}
         </div>
     );
 }
